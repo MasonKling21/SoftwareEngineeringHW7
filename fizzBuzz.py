@@ -14,3 +14,8 @@ def fizzedBuzz(x):
     else:
         print(x)
         return(x)
+
+for x in range(1,101):
+    fizzedBuzz(x)
+
+print("\n\n")
