@@ -4,3 +4,5 @@ def leapYear(x):
             return("Leap year")
         else:
             return("Not a leap year")
+    else:
+        return("Not a leap year")
