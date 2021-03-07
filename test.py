@@ -15,6 +15,7 @@ class TestFunction(unittest.TestCase):
         self.assertEqual(leapYear(100), "Not a leap year")
         self.assertEqual(leapYear(400), "Leap year")
         self.assertEqual(leapYear(43), "Not a leap year")
+        self.assertEqual(leapYear("a"), "Error!")
 
 
 if __name__ == "__main__":
