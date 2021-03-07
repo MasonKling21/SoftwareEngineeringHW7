@@ -8,3 +8,6 @@ def fizzedBuzz(x):
     elif (x % 5) == 0:
         print("Buzz")
         return("Buzz")
+    else:
+        print(x)
+        return(x)
