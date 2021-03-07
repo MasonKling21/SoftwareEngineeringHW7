@@ -7,6 +7,7 @@ class TestFunction(unittest.TestCase):
         self.assertEqual(fizzedBuzz(5), "Buzz")
         self.assertEqual(fizzedBuzz(15), "FizzBuzz")
         self.assertEqual(fizzedBuzz(16), 16)
+        self.assertEqual(fizzedBuzz("a"), "Error!")
 
 
 if __name__ == "__main__":
