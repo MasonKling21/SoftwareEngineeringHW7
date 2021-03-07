@@ -1,5 +1,6 @@
 import unittest
 from fizzBuzz import *
+from leapYear import *
 
 class TestFunction(unittest.TestCase):
     def test_fizzBuzz(self):
@@ -8,6 +9,9 @@ class TestFunction(unittest.TestCase):
         self.assertEqual(fizzedBuzz(15), "FizzBuzz")
         self.assertEqual(fizzedBuzz(16), 16)
         self.assertEqual(fizzedBuzz("a"), "Error!")
+
+    def test_leapYear(self):
+        self.assertEqual(leapYear(4), "Leap year")
 
 
 if __name__ == "__main__":
